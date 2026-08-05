@@ -41,7 +41,7 @@ STATIC CONST XBOX360_COMPATIBLE_DEVICE  mXbox360BuiltinDevices[] = {
   //
   // 8BitDo Controllers
   //
-  { 0x2DC8, 0x3106, L"8BitDo Ultimate / Pro 2 Wired" },
+  { 0x2DC8, 0x201E, L"8BitDo Pro 2 Wired for Xbox" },
   { 0x2DC8, 0x3109, L"8BitDo Ultimate Wireless" },
   { 0x2DC8, 0x310A, L"8BitDo Ultimate 2C Wireless" },
   { 0x2DC8, 0x310B, L"8BitDo Ultimate 2 Wireless" },
