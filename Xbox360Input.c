@@ -715,7 +715,15 @@ KeyboardHandler (
   }
 
   Report = (UINT8 *)Data;
+  LOG_INFO(
+  "Report: %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X",
+  Report[0], Report[1], Report[2], Report[3],
+  Report[4], Report[5], Report[6], Report[7],
+  Report[8], Report[9], Report[10], Report[11],
+  Report[12], Report[13]
+);
 
+  
   //
   // Handle different device types
   //
